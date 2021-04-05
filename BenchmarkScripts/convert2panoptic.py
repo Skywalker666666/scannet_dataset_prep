@@ -92,7 +92,9 @@ def convert2panoptic(scannetPath, outputFolder=None):
         images.append({"id": imageId,
                        "width": int(originalFormat.shape[1]),
                        "height": int(originalFormat.shape[0]),
-                       "file_name": inputFileName})
+                       "file_name": outputFileName})
+                       
+                       #"file_name": inputFileName})
 
         pan_format = np.zeros(
             (originalFormat.shape[0], originalFormat.shape[1], 3), dtype=np.uint8
