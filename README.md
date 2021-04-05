@@ -1,5 +1,8 @@
 # ScanNet
 
+this is based on the original repository of scannet dataset:
+https://github.com/ScanNet/ScanNet
+
 ScanNet is an RGB-D video dataset containing 2.5 million views in more than 1500 scans, annotated with 3D camera poses, surface reconstructions, and instance-level semantic segmentations.
 
 ## ScanNet Data
